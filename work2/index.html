@@ -1,0 +1,29 @@
+<html>
+
+
+
+<haed>
+    <meta charset="UTF-8">
+    <title>梁金花的简单网页应用</title>
+    <script>
+        var password=prompt('请输入梁金花的密码')
+        if (password=='123456'){
+        alert('输入密码正确')
+        }else{
+            alert('输入密码错误!')
+        }
+
+        function  color(str){
+            document.body.style.backgroundColor=str;
+        }
+
+    </script>
+</haed>
+<body>
+        <input  tybe="button"  value="设为红色"  onclick="color('red')">
+        <input  tybe="button"  value="设为黄色"  onclick="color('yellow')">
+        <input  tybe="button"  value="设为蓝色"  onclick="color('blue')">
+        <input  tybe="button"  value="设为自定义颜色"  onclick="color('#22ee00')">
+</body>
+
+</html>
