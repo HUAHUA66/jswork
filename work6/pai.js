@@ -27,6 +27,6 @@ function pi(num){
         let divisor = oddFactorial(n)
         sum+=sum
     }
-    return sum=
+    return sum*2
 }
 calculate()
