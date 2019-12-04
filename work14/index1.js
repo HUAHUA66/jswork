@@ -1,21 +1,21 @@
 var lamp = {
     red: {
-        obj:document.getElementById('red'),
+        obj: document.getElementById('red'),
         timeout: 3,
         style: ['red', 'gray', 'gray'],
         next: 'green'
     },
     yellow: {
-        obj:document.getElementById('yellow'),
+        obj: document.getElementById('yellow'),
         timeout: 2,
         style: ['gray', 'yellow', 'gray'],
         next: 'red'
     },
     green: {
-        obj.document.getElementById('green'),
+        obj: document.getElementById('green'),
         timeout: 5,
-        style: ['gray','gray','green'],
-        nexy: 'yellow'
+        style: ['gray', 'gray', 'green'],
+        next: 'yellow'
     },
     changeStyle(style) {
         this.red.obj.className = style[0];
@@ -24,7 +24,7 @@ var lamp = {
     }
 };
 var count = {
-    obj:document.getElementById('count'),
+    obj: document.getElementById('count'),
     change: function(num) {
         this.obj.innerHTML = (num < 10) ? ('0' + num) : num ;
     }
