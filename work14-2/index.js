@@ -1,4 +1,4 @@
-let endseconds = new Date().getTime() + 3600 * 1000;
+let endseconds = new Date().getTime() + 3540 * 1000;
 let d = h = m  = s = 0;
 let id = setInterval(seckill, 1000);
 
