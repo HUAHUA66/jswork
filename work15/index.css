@@ -22,11 +22,11 @@
     border-collapse: collapse;
     font-size: 12px;
     font-family: Verdana,"Microsoft YaHei";
-    color: rgba(70, 27, 223, 0.863);
+    color: #333;
 }
 
 .cart-table th {
-    border-bottom: 2px solid rgba(17, 99, 221, 0.842);
+    border-bottom: 2px solid #B2D1FF;
     font-weight: normal;
     height: 35px;
     line-height: 23px;
@@ -89,12 +89,14 @@
 }
 
 .cart-del,
-.cart-all {
+.cart-all, 
+.cart-unall {
     color:#3366D4;
 }
 
 .cart-del:hover,
-.cart-all:hover {
+.cart-all:hover,
+.cart-unall:hover {
     text-decoration: underline;
     cursor: pointer;
 }
