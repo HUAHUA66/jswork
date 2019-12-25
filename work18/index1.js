@@ -110,8 +110,8 @@
             pageNum:document.getElementById('page_num'),
             onChange: function  () {
                 comment.ajax('http://139.9.81.203:8090/ajax?page=' +  this.page, function () {
-                    ProgressBar = new ProgressBar(progressContainer);
-                    ProgressBar.show();
+                    progressBar = new ProgressBar(progressContainer);
+                    progressBar.show();
             },  function (obj) {
                 pageList.maxPage = obj.maxPage;
                 pageList.updateStatus();
