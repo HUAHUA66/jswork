@@ -117,7 +117,7 @@
                 pageList.updateStatus();
                 comment.create(obj.data);
                 QueryString.set('page='  + pageList.page);
-                ProgressBar.complete();
+                progressBar.complete();
             });
        }
    });
